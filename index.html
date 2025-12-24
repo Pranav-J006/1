@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pranav's Portfolio</title>
+
+<style>
+/* 
+  This is my personal portfolio website.
+  I created this using basic HTML and CSS while learning web development.
+*/
+
+/* ===== BASIC STYLE ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* simple font */
+    background-color: #f2f4f8;
+    color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #5c7c89;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+/* ===== NAV BAR ===== */
+nav {
+    background-color: #dde5ea;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5c7c89;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== MAIN SECTIONS ===== */
+section {
+    background-color: white;
+    margin: 18px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+section h2 {
+    color: #5c7c89;
+}
+
+/* ===== SKILLS ===== */
+.skills span {
+    display: inline-block;
+    background-color: #e1ecf1;
+    padding: 7px 12px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 13px;
+}
+
+/* ===== PROJECTS ===== */
+.project {
+    border-left: 4px solid #5c7c89;
+    padding-left: 10px;
+    margin-bottom: 12px;
+}
+
+/* ===== CONTACT FORM ===== */
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #5c7c89;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a6570;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #dde5ea;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Pranav J</h1>
+    <p>Student | Learning Programming & Web Development</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        My name is Pranav. I am a student and beginner in programming.
+        I am currently learning how websites work using HTML and CSS.
+        This portfolio is created by me as part of my learning.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+        <span>C</span>
+        <span>Java</span>
+        <span>Python</span>
+        <span>HTML</span>
+        <span>CSS</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project">
+        <h4>Attendance Management System</h4>
+        <p>
+            A simple project I worked on to understand basic logic and data handling.
+        </p>
+    </div>
+
+    <div class="project">
+        <h4>Portfolio Website</h4>
+        <p>
+            This portfolio website created using only HTML and CSS.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <input type="text" placeholder="Enter your name">
+    <input type="email" placeholder="Enter your email">
+    <textarea placeholder="Write your message"></textarea>
+    <button onclick="alert('Message sent')">Send</button>
+</section>
+
+<footer>
+    © 2025 Pranav J
+</footer>
+
+</body>
+</html>
